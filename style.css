@@ -57,19 +57,11 @@ main {
     padding-top: 10px;
 }
 
-.photo-placeholder {
+.profile-image {
     width: 100%;
     max-width: 400px;
     height: 340px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: #eeeeee;
-    color: #888;
-
-    font-size: 20px;
+    object-fit: cover;
 }
 
 .profile h2 {
