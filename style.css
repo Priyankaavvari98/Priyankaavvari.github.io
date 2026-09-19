@@ -99,6 +99,34 @@ main {
     line-height: 1.65;
     margin-bottom: 25px;
 }
+/* Full-width layout for Experience, Research, Projects, etc. */
+
+.page-content {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 30px;
+}
+
+.page-content h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.page-content h2 {
+    color: #3f7fbd;
+    margin-top: 30px;
+}
+
+.page-content p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.page-content hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+}
 
 @media (max-width: 800px) {
 
